@@ -1,4 +1,4 @@
-# Sales Data Analysis & Cleaning
+# Exploratory data analysis for online store
 
 ## Project Description
 
