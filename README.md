@@ -43,7 +43,7 @@ The following steps were performed:
   - no negative values  
   - logical date consistency  
   - no critical outliers  
-
+![Categories](images/categories.png)
 
 ## Key Metrics
 
