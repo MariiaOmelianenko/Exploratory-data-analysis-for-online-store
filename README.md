@@ -112,7 +112,7 @@ After merging the tables, it was discovered that sales occurred only in 2 out of
 - Clothing peaks in summer, Meat in spring  
 - Fruits show stable, slightly growing profit, while Cosmetics trend downward overall (with some country exceptions)  
 - Sales peak from Friday to Monday, with a decline to midweek  
-![Dynamic](images/dunamic.png)
+![Dynamic](images/dynamic.png)
 
 ## Technologies
 
