@@ -43,7 +43,7 @@ The following steps were performed:
   - no negative values  
   - logical date consistency  
   - no critical outliers  
-![Categories](images/categories.png)
+
 
 ## Key Metrics
 
@@ -61,7 +61,7 @@ After merging the tables, it was discovered that sales occurred only in 2 out of
 
 - The most profitable categories are Cosmetics, Office Supplies, and Household — they also generate the highest revenue.  
 - Fruits and Beverages are among the most popular categories but have low margins.
-
+![Categories](images/categories.png)
 
 ### Sales Geography
 
@@ -70,13 +70,13 @@ After merging the tables, it was discovered that sales occurred only in 2 out of
   - Czech Republic
   - Ukraine
   - Bosnia and Herzegovina
-
+![Map](images/map.png)
 
 ### Sales Channels
 
 - Revenue is relatively evenly distributed between channels  
 - Slight dominance of offline sales is observed  
-
+![Channel](images/channel.png)
 
 ### Logistics
 
@@ -101,7 +101,7 @@ After merging the tables, it was discovered that sales occurred only in 2 out of
 - Outliers exist in both directions:
   - max delivery time: ~50 days  
   - min: 0–1 day  
-
+![Shipping_days](images/shipping_days.png)
 - No correlation between shipping time and profit was found  
 
 
@@ -112,7 +112,7 @@ After merging the tables, it was discovered that sales occurred only in 2 out of
 - Clothing peaks in summer, Meat in spring  
 - Fruits show stable, slightly growing profit, while Cosmetics trend downward overall (with some country exceptions)  
 - Sales peak from Friday to Monday, with a decline to midweek  
-
+![Dynamic](images/dunamic.png)
 
 ## Technologies
 
