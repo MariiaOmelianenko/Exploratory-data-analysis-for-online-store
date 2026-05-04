@@ -7,15 +7,14 @@ The goal was to prepare raw data for analysis, explore key business metrics and 
 
 This project was completed as a learning (pet) project.
 
----
 
 ## Data
 
 The dataset consists of three tables:
 
-- **products** — contains product ID and product name  
-- **countries** — includes country information (name, region, subregion, ISO-2 and ISO-3 codes)  
-- **events** — the main orders table:
+- products — contains product ID and product name  
+- countries — includes country information (name, region, subregion, ISO-2 and ISO-3 codes)  
+- events — the main orders table:
   - Order ID  
   - Order Date  
   - Ship Date  
@@ -47,10 +46,10 @@ The following steps were performed:
 
 ## Key Metrics
 
-- Number of orders: **1,328**  
-- Total profit: **501,434,459**  
-- Number of countries: **45**  
-- Number of active regions: **2**
+- Number of orders: 1,328
+- Total profit: 501,434,459 
+- Number of countries: 45  
+- Number of active regions: 2
 
 After merging the tables, it was discovered that sales occurred only in 2 out of 5 possible regions.
 
