@@ -38,10 +38,7 @@ The following steps were performed:
     - checked for systematic issues  
     - missing values were random  
 - Data preserved using LEFT JOIN to avoid data loss  
-- Validated:
-  - no negative values  
-  - logical date consistency  
-  - no critical outliers  
+- Validated (no negative values, logical date consistency, no critical outliers)
 
 
 ## Key Metrics
