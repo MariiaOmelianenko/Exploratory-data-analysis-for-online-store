@@ -12,9 +12,9 @@ This project was completed as a learning (pet) project.
 
 The dataset consists of three tables:
 
-- products — contains product ID and product name  
-- countries — includes country information (name, region, subregion, ISO-2 and ISO-3 codes)  
-- events — the main orders table:
+- products - contains product ID and product name  
+- countries - includes country information (name, region, subregion, ISO-2 and ISO-3 codes)  
+- events - the main orders table:
   - Order ID  
   - Order Date  
   - Ship Date  
@@ -32,9 +32,9 @@ The dataset consists of three tables:
 The following steps were performed:
 - Fixed data types for Order Date and Ship Date
 - Handled missing values:
-  - countries — <0.4% missing → removed  
-  - events (Units Sold) — ~0.15% → removed  
-  - events (Country Code) — ~6.17%:
+  - countries - <0.4% missing → removed  
+  - events (Units Sold) - 0.15% → removed  
+  - events (Country Code) - 6.17%:
     - checked for systematic issues  
     - missing values were random  
 - Data preserved using LEFT JOIN to avoid data loss  
@@ -55,7 +55,7 @@ After merging the tables, it was discovered that sales occurred only in 2 out of
 
 ### Category Profitability
 
-- The most profitable categories are Cosmetics, Office Supplies, and Household — they also generate the highest revenue.  
+- The most profitable categories are Cosmetics, Office Supplies, and Household - they also generate the highest revenue.  
 - Fruits and Beverages are among the most popular categories but have low margins.
 ![Categories](images/categories.png)
 
@@ -76,7 +76,7 @@ After merging the tables, it was discovered that sales occurred only in 2 out of
 
 ### Logistics
 
-- Longest delivery time (~27 days): Cereals, Office Supplies 
+- Longest delivery time (27 days): Cereals, Office Supplies 
 - Fastest delivery: Clothing, Personal Care  
 
 **Geographical factor:**
@@ -86,7 +86,7 @@ After merging the tables, it was discovered that sales occurred only in 2 out of
 
 ### Delivery Time
 
-- Median delivery time in both regions is ~25 days  
+- Median delivery time in both regions is 25 days  
 - Europe:
   - 25% of deliveries ≤ 12 days  
   - 75% ≤ 38 days  
@@ -95,8 +95,8 @@ After merging the tables, it was discovered that sales occurred only in 2 out of
   - 75% ≤ 36 days  
 
 - Outliers exist in both directions:
-  - max delivery time: ~50 days  
-  - min: 0–1 day  
+  - max delivery time: 50 days  
+  - min: 0-1 day  
 ![Shipping_days](images/shipping_days.png)
 - No correlation between shipping time and profit was found  
 
